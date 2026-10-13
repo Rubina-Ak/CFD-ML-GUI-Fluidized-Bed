@@ -47,3 +47,36 @@ If you use this software in your research, please cite the associated publicatio
 Source code and trained model files are available in this public GitHub repository.
 
 Repository: https://github.com/Rubina-Ak/CFD-ML-GUI-Fluidized-Bed
+## Installation
+
+### Requirements
+
+* Python
+* The Python packages listed in `requirements.txt`
+
+### Install dependencies
+
+Open a terminal in the project directory and run:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### Run the application
+
+This project uses a Python desktop GUI. From the project directory, run:
+
+```bash
+python app.py
+```
+
+### Model files
+
+The `model/` directory contains the trained ANN model and the preprocessing scalers required for prediction:
+
+* `final_tuned_ann_3output.h5`
+* `scaler_X.pkl`
+* `scaler_y.pkl`
+
+Keep these files in the `model/` directory when running the application.
+
