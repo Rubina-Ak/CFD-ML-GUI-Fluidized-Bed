@@ -2,9 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software in your research, please cite it."
 title: "A Hybrid CFD-ANN Framework for Predicting Gas-Solid Hydrodynamics in Fluidized Beds with Single and Multi-Nozzle Side Injection"
 authors: Rubina Akhtar , Dhakane Vishal, Ashutosh Yadav,  Rajesh Kumar Upadhyay, K. K. Singh
-
-* family-names: Akhtar
-  given-names: Rubina
-  version: 1.0.0
-  repository-code: "https://github.com/Rubina-Ak/CFD-ML-GUI-Fluidized-Bed"
-  type: software
+  - family-names: "Akhtar"
+    given-names: "Rubina"
+version: "1.0.0"
+repository-code: "https://github.com/Rubina-Ak/CFD-ML-GUI-Fluidized-Bed"
+type: software
